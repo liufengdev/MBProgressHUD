@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FA19951C5A1E7B00A1E042 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FA19941C5A1E7B00A1E042 /* MBProgressHUD+Add.m */; };
 		1315DD7617804CBC0032507D /* MBProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D286A7511518C70F00E13FB8 /* MBProgressHUD.h */; };
 		1D104D931ACA371400973364 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D286A7521518C70F00E13FB8 /* MBProgressHUD.m */; };
 		1D104D941ACA373100973364 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D286A7511518C70F00E13FB8 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03FA19931C5A1E7B00A1E042 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = SOURCE_ROOT; };
+		03FA19941C5A1E7B00A1E042 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = SOURCE_ROOT; };
 		1315DD73178045000032507D /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		1D104D7A1ACA36CC00973364 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D104D951ACA376200973364 /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -104,6 +107,8 @@
 			children = (
 				D286A7511518C70F00E13FB8 /* MBProgressHUD.h */,
 				D286A7521518C70F00E13FB8 /* MBProgressHUD.m */,
+				03FA19931C5A1E7B00A1E042 /* MBProgressHUD+Add.h */,
+				03FA19941C5A1E7B00A1E042 /* MBProgressHUD+Add.m */,
 				1315DD72178044770032507D /* Supporting Files */,
 			);
 			path = MBProgressHUD;
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D286A7531518C70F00E13FB8 /* MBProgressHUD.m in Sources */,
+				03FA19951C5A1E7B00A1E042 /* MBProgressHUD+Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
