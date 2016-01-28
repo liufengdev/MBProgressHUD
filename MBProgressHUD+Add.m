@@ -130,7 +130,7 @@
     [CATransaction begin];
     
     //    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-    UIWindow *keyWindow = [UIWindow bl_mainWindow];
+    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
     MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithWindow:keyWindow];
     [HUD setUserInteractionEnabled:YES];
     
